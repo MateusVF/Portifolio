@@ -1,0 +1,14 @@
+.menu__skills-principal {
+  height: 400px;
+  background: green;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__skills-principal .skills__titulo {
+  font-size: 40px;
+}
+.menu__skills-principal .menu__skills-bloco {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
