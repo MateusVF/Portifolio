@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="icon" href="./assets/img/identification.png"> 
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/header.css" rel="stylesheet">
     <link href="./assets/css/sobre__min-principal.css" rel="stylesheet">
     <link href="./assets/css/sobre__mim-secundario.css" rel="stylesheet">
     <link href="./assets/css/menu__skills-principal.css" rel="stylesheet">
-
+    <link href="./assets/css/menu__hobbies-principal.css" rel="stylesheet">
+    <link href="./assets/css/menu__formacao.css" rel="stylesheet">
+    <link href="./assets/css/menu__profissional.css" rel="stylesheet">
+    <link href="./assets/css/menu__contato.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
-    <title>Portfólio</title>
+    <title>Mateus Vieira</title>
 
 </head>
 <body>
@@ -24,12 +27,12 @@
        <p class="menu__principal-texto">Mateus Vieira de Freitas</p>
        <nav class="menu__principal-bloco">
         <ul class="menu__lista">
-            <li class="lista__conteudo"><a href="#">Sobre mim</a></li>
-            <li class="lista__conteudo"><a href="#">Skills</a></li>
-            <li class="lista__conteudo"><a href="#">Hobbies</a></li>
-            <li class="lista__conteudo"><a href="#">Formação</a></li>
-            <li class="lista__conteudo"><a href="#">Projetos</a></li>
-            <li class="lista__conteudo"><strong>mateus20atom@gmail.com</strong></li>
+            <li class="lista__conteudo"><a href="#" id="evento1">Sobre mim</a></li>
+            <li class="lista__conteudo"><a href="#" id="evento2">Skills</a></li>
+            <li class="lista__conteudo"><a href="#" id="evento3">Hobbies</a></li>
+            <li class="lista__conteudo"><a href="#" id="evento4">Formação</a></li>
+            <li class="lista__conteudo"><a href="#" id="evento5">Projetos</a></li>
+            <li class="lista__conteudo"><a href="#" id="evento6">Contato</a></li>
         </ul>
        </nav>
     </header>
@@ -47,7 +50,6 @@
                    <li class="lista__conteudo"><a href="#">Github <img src="./assets/img/seta.png"></a></li>
                    <li class="lista__conteudo"><a href="#">Linkedin <img src="./assets/img/seta.png"></a></li>
                    <li class="lista__conteudo"><a href="#">Instagram <img src="./assets/img/seta.png"></a></li>
-                   <li class="lista__conteudo"><a href="#">Currículo <img src="./assets/img/seta.png"></a></li>
                 </ul>
             </div>
             <div class="sobre__mim-img">
@@ -57,7 +59,7 @@
 
 
             <!--Essa é a section sobre mim parte 2-->
-        <section class="sobre__mim-secundario">
+        <section class="sobre__mim-secundario" id="sobre-mim">
             <div class="sobre__mim-bloco">
                 <h1 class="sobre__mim-titulo">Sobre mim</h1>
                 <p class="sobre__mim-texto">
@@ -72,118 +74,120 @@
 
 
             <!--Essa é a section de skills-->
-        <section class="menu__skills-principal">
+        <section class="menu__skills-principal" id="skills">
             <h1 class="skills__titulo">Skills</h1>
             <div class="menu__skills-bloco">
                 <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
+                    <img class="skills__img" src="./assets/img/skills/html.png">
                     <p class="skills__texto">HTML 5</p>
                 </div>
                 <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
+                    <img class="skills__img" src="./assets/img/skills/javascript.png">
                     <p class="skills__texto">Javascript</p>
                 </div>
                 <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
-                    <p class="skills__texto">PHP</p>
-                </div>
-                <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
+                    <img class="skills__img" src="./assets/img/skills/nodejs.png">
                     <p class="skills__texto">Node JS</p>
                 </div>
                 <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
-                    <p class="skills__texto">React</p>
-                </div>
-                <div class="menu__skills-conteudo">
-                    <img class="skills__img" src="" alt="">
+                    <img class="skills__img" src="./assets/img/skills/css.png">
                     <p class="skills__texto">CSS</p>
                 </div>
             </div>
         </section>
 
             <!--Essa é a section de hobbies-->
-        <section class="menu__hobbies-principal">
+        <section class="menu__hobbies-principal" id="hobbies">
             <h1 class="hobbies__titulo">Hobbies</h1>
             <div class="menu__hobbies-bloco">
                 <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img" src="" alt="">
-                    <p class="hobbies__texto">Andar de skate</p>
+                    <img class="hobbies__img" src="./assets/img/hobbies/objetivo.gif">
+                    <p class="hobbies__texto">Jogar futebol</p>
                 </div>
                 <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img"  src="" alt="">
-                    <p class="hobbies__texto">Tocar baixo</p>
+                    <img class="hobbies__img"  src="./assets/img/hobbies/livro.gif">
+                    <p class="hobbies__texto">Ler</p>
                 </div>
                 <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img"  src="" alt="">
-                    <p class="hobbies__texto">Ouvir música</p>
+                    <img class="hobbies__img"  src="./assets/img/hobbies/claquete.gif">
+                    <p class="hobbies__texto">Assistir séries/filmes</p>
                 </div>
                 <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img"  src="" alt="">
-                    <p class="hobbies__texto">Assistir séries</p>
-                </div>
-                <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img"  src="" alt="">
-                    <p class="hobbies__texto">Cozinhar</p>
-                </div>
-                <div class="menu__hobbies-conteudo">
-                    <img class="hobbies__img"  src="" alt="">
-                    <p class="hobbies__texto">Tirar fotos</p>
+                    <img class="hobbies__img"  src="./assets/img/hobbies/controle-de-video-game.gif">
+                    <p class="hobbies__texto">Jogar video game</p>
                 </div>
             </div>
         </section>
 
             <!--Essa é a section de formação academica-->
-        <section class="menu__formacao">
-            <h1 class="formacao__titulo">Formação Acadêmica</h1>
-            <div class="formacao__bloco">
+        <section class="menu__formacao" id="formacao">
+            <h1 class="formacao__titulo">Formação acadêmica</h1>
+            <div class="menu__formacao-bloco">
                 <div class="menu__formacao-conteudo">
-                    <img class="formacao__img" src="" alt="">
-                    <h3 class="formacao__subtitulo"></h3>
-                    <p class="formacao__texto"></p>
+                    <img class="formacao__img" src="./assets/img/ONE-Next-Education.png">
+                    <h3 class="formacao__subtitulo">Programa ONE - Oracle Next Education</h3>
+                    <p class="formacao__texto">Atualmente - Alura & Oracle</p>
                 </div>
                 <div class="menu__formacao-conteudo">
-                    <img class="formacao__img" src="" alt="">
-                    <h3 class="formacao__subtitulo"></h3>
-                    <p class="formacao__texto"></p>
+                    <img class="formacao__img" src="./assets/img/CIEE.png">
+                    <h3 class="formacao__subtitulo">Ocupações Administrativas</h3>
+                    <p class="formacao__texto">2020 - Aprendiz Legal (CIEE)</p>
                 </div>
                 <div class="menu__formacao-conteudo">
-                    <img class="formacao__img" src="" alt="">
-                    <h3 class="formacao__subtitulo"></h3>
-                    <p class="formacao__texto"></p>
+                    <img class="formacao__img" src="./assets/img/Google-G_360x360.png">
+                    <h3 class="formacao__subtitulo">Fundamentos do Suporte Técnico - Google</h3>
+                    <p class="formacao__texto">Atualmente - Em parceria com Coursera</p>
                 </div>
             </div>
         </section>
 
             <!--Essa é a section de experiência profissional-->
-        <section class="menu__profissional">
-            <h1 class="profissional__titulo">Experiência profissional</h1>
+        <section class="menu__profissional" id="projetos">
+            <h1 class="profissional__titulo">Projetos</h1>
             <div class="profissional__conteudo">
-                <img class="profissional__img" src="" alt="">
-                <h2 class="profissional__subtitulo"></h2>
-                <p class="profissional__texto"></p>
-                <input class="profissional__btn" type="button">
+                <div class="profissional__bloco-img">
+                    <img class="profissional__img" src="./assets/img/AluraProject.png">
+                </div>
+                <div class="profissional__bloco-info">
+                    <h2 class="profissional__subtitulo">Decodificador de texto</h2>
+                    <p class="profissional__texto">Challenge Alura Codificador e Descodificador de texto.</p>
+                    <a class="profissional__link" href="https://github.com/MateusVF/Portifolio" target="_blank" rel="noopener noreferrer">
+                        <button class="profissional__btn">Repositório</button>
+                    </a>
+                    <a class="profissional__link" href="https://mateusvf.github.io/AluraProject/" target="_blank" rel="noopener noreferrer">
+                        <button class="profissional__btn2">Demo</button>
+                    </a>
+                </div>
             </div>
         </section>
 
             <!--Essa é a section do contato-->
-        <section class="menu__contato">
+        <section class="menu__contato" id="contato">
             <div id="contato" class="contato__bloco">
-                <div class="contato__conteudo-esquerda">
-                    <img class="contato__img" src="">
-                </div>
-                <div class="contato__conteudo-direita">
                     <h2 class="contato__titulo">Contato</h2>
                     <h3 class="contato__titulo-2">Quer entrar em contato comigo?</h3>
                     <h3 class="contato__titulo-2">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    <form class="contato__formulario">
-                        <input class="contato__btn-nome" type="text" id="nome" placeholder="Nome">
-                        <input class="contato__btn-email" type="email" id="email" placeholder="Email">
-                        <input class="contato__btn-text" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button class="contato__btn-enviar">Enviar mensagem</button>
+                    <form class="contato__formulario" id="form">
+                        <fieldset>
+                            <input class="inputs required" type="text" placeholder="Nome" oninput="nameValidate()">
+                            <span class="mensagem-erro">Nome que deve ter no minimo 3 caracteres</span>
+                        </fieldset>
+                       <fieldset>
+                            <input class="inputs required"type="email" placeholder="Email" oninput="emailValidate()" >
+                            <span class="mensagem-erro">Digite um e-mail válido</span>
+                       </fieldset>
+                       <fieldset>
+                            <input class="inputs required" type="text" placeholder="Assunto" oninput="assuntoValidate()">
+                            <span class="mensagem-erro">Escreva mais sobre</span>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <textarea class="contato__textarea" rows="5" cols="40" name="mensagem" placeholder="Sua mensagem" minlength="5" required>
+
+                            </textarea>
+                        </fieldset>
+                        <button class="contato__btn-enviar" type="submit">Enviar mensagem</button>
                     </form>
-                </div>
             </div>
         </section>
     </main>
@@ -195,4 +199,5 @@
 
 </body>
 <script src="./assets/js/function.js"></script>
+<script src="./assets/js/valida.js"></script>
 </html>

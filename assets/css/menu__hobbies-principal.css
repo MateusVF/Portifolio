@@ -1,4 +1,4 @@
-.menu__skills-principal {
+.menu__hobbies-principal {
   background: #F5F5F5;
   display: flex;
   flex-direction: column;
@@ -6,21 +6,22 @@
   height: 400px;
   justify-content: space-evenly;
 }
-.menu__skills-principal .skills__titulo {
+.menu__hobbies-principal .hobbies__titulo {
   color: #464646;
   font-weight: 700;
   line-height: 37px;
   font-size: 40px;
   height: auto;
   margin: 0 auto;
+  padding-top: 20px;
 }
-.menu__skills-principal .menu__skills-bloco {
+.menu__hobbies-principal .menu__hobbies-bloco {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.menu__skills-principal .menu__skills-bloco .menu__skills-conteudo {
+.menu__hobbies-principal .menu__hobbies-bloco .menu__hobbies-conteudo {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -31,11 +32,11 @@
   width: 152px;
   border-radius: 15px;
 }
-.menu__skills-principal .menu__skills-bloco .menu__skills-conteudo .skills__img {
+.menu__hobbies-principal .menu__hobbies-bloco .menu__hobbies-conteudo .hobbies__img {
   margin-left: 20px;
-  width: 27px;
+  width: 40px;
 }
-.menu__skills-principal .menu__skills-bloco .menu__skills-conteudo .skills__texto {
+.menu__hobbies-principal .menu__hobbies-bloco .menu__hobbies-conteudo .hobbies__texto {
   margin-bottom: 10px;
   margin-left: 20px;
 }
