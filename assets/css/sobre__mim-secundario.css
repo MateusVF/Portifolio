@@ -3,14 +3,14 @@
   flex-wrap: wrap;
   height: auto;
   background: #EAF2FD;
-  padding: 50px 0;
 }
 .sobre__mim-secundario .sobre__mim-bloco {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  padding: 10px 60px 10px 60px;
   gap: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .sobre__mim-secundario .sobre__mim-bloco .sobre__mim-titulo {
   color: #464646;

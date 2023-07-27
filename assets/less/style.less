@@ -1,5 +1,7 @@
+
 body{
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: 'Raleway';
     background: #F5F5F5;}
     
@@ -8,11 +10,20 @@ ul,li{
 a{
     text-decoration: none;}
 
+.base{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+
 @import url(./header.less);
-@import url(./sobre__min-principal.less);
+@import url(./sobre__mim-principal.less);
 @import url(./sobre__mim-secundario.less);
 @import url(./menu__skills-principal.less);
 @import url(./menu__hobbies-principal.less);
 @import url(./menu__formacao.less);
 @import url(./menu__profissional.less);
 @import url(./menu__contato.less);
+@import url(./responsivo_tablet.less);
+
+

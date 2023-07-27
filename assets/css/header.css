@@ -4,20 +4,17 @@
   flex-wrap: wrap;
   height: 5rem;
   justify-content: space-around;
-  width: 100%;
 }
 .menu__principal .menu__principal-texto {
   color: #464646;
   font-size: 16px;
   font-weight: 600;
 }
-.menu__principal .menu__principal-bloco {
-  width: 60%;
-}
 .menu__principal .menu__principal-bloco .menu__lista {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 .menu__principal .menu__principal-bloco .menu__lista .lista__conteudo:last-child {
   font-weight: 600;

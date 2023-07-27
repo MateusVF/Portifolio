@@ -1,15 +1,11 @@
 .sobre__mim-principal {
   display: flex;
   flex-wrap: nowrap;
-  height: 500px;
 }
 .sobre__mim-principal .sobre__mim-bloco {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 0 4vw;
-  width: 70vw;
 }
 .sobre__mim-principal .sobre__mim-bloco .sobre__mim-titulo {
   color: #464646;
@@ -38,13 +34,14 @@
   color: #464646;
 }
 .sobre__mim-principal .sobre__mim-img {
-  width: 400px;
+  display: flex;
   height: 368px;
-  margin: 15px 10px 0 10px;
+  margin: auto 0;
 }
 .sobre__mim-principal .sobre__mim-img img {
-  width: 352px;
-  height: 352px;
+  width: auto;
+  width: 252px;
+  height: 300px;
   border-radius: 60%;
   border: 1px solid black;
 }
