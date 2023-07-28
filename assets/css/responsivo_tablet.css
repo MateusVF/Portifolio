@@ -1,14 +1,67 @@
 @media screen and (max-width: 768px) {
+  .menu__lista #evento1,
+  .menu__lista #evento2,
+  .menu__lista #evento3,
+  .menu__lista #evento4,
+  .menu__lista #evento5 {
+    display: none;
+  }
+  .sobre__mim-principal .sobre__mim-bloco .sobre__mim-titulo {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .sobre__mim-principal .sobre__mim-bloco .sobre__mim-texto {
+    font-size: 16px;
+  }
+  .sobre__mim-principal .sobre__mim-bloco .menu__lista {
+    align-content: flex-start;
+    display: flex;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: calc(76.92307692%);
+  }
+  .sobre__mim-principal .sobre__mim-bloco .menu__lista .lista__conteudo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    gap: 20px;
+  }
+  .sobre__mim-principal .sobre__mim-bloco .menu__lista .lista__conteudo a {
+    font-size: 13px;
+  }
+  .sobre__mim-principal .sobre__mim-bloco .menu__lista .lista__conteudo a img {
+    width: 10px;
+  }
+  .sobre__mim-principal .sobre__mim-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .sobre__mim-principal .sobre__mim-img img {
+    width: 150px;
+    height: 200px;
+  }
+  .sobre__mim-secundario .sobre__mim-bloco .sobre__mim-texto {
+    font-size: 16px;
+  }
+  .menu__formacao {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu__formacao .formacao__img {
+    margin: 0 auto;
+  }
   .menu__profissional {
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .menu__profissional .profissional__bloco-img {
-    max-height: 250px;
-    width: auto;
-  }
-  .menu__profissional .profissional__bloco-img .profissional__img {
-    max-height: 250px;
-    width: auto;
+  .menu__profissional .profissional__bloco-img img {
+    width: 140px;
   }
   .menu__profissional .profissional__conteudo {
     display: flex;

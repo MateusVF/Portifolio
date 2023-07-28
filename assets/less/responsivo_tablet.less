@@ -1,14 +1,88 @@
 @media screen and (max-width: 768px) {
-    
+    .menu__lista{
+
+        #evento1, #evento2, #evento3, #evento4, #evento5{
+            display: none;
+        }
+    }
+
+
+    .sobre__mim-principal{
+        .sobre__mim-bloco{
+        
+            .sobre__mim-titulo{
+                font-size: 25px;
+                line-height: 30px;
+            }
+            .sobre__mim-texto{
+                font-size: 16px;
+            }
+
+            .menu__lista{
+                align-content: flex-start;
+                display: flex;
+                flex-grow: 0;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                width: calc(100% / 1.3);
+                .lista__conteudo{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    width: auto;
+                    gap: 20px;
+                    a{
+                        font-size: 13px;
+                        
+                        img{
+                            width: 10px;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        .sobre__mim-img{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            img{
+                width: 150px;
+                height: 200px;
+            }
+        }
+    }
+
+    .sobre__mim-secundario{
+        .sobre__mim-bloco{
+            .sobre__mim-texto{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .menu__formacao{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .formacao__img{
+            margin: 0 auto;
+        }
+
+    }
+
+
     .menu__profissional{
         height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
         .profissional__bloco-img{
-           max-height: 250px;
-           width: auto;
 
-            .profissional__img{
-                max-height: 250px;
-                width: auto;
+            img{
+              width: 140px;
             }
         }
         .profissional__conteudo{
