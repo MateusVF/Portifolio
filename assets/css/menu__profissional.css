@@ -32,7 +32,7 @@
 }
 .menu__profissional .profissional__conteudo .profissional__bloco-img .profissional__img {
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.9));
-  width: 650px;
+  max-width: 650px;
 }
 .menu__profissional .profissional__conteudo .profissional__bloco-info {
   align-self: center;

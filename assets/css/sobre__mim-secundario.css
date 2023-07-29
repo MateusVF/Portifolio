@@ -9,6 +9,9 @@
   flex-wrap: wrap;
   height: auto;
   justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 15px;
 }
 .sobre__mim-secundario .sobre__mim-bloco .sobre__mim-titulo {
   color: #464646;

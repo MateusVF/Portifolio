@@ -45,6 +45,15 @@
   .sobre__mim-secundario .sobre__mim-bloco .sobre__mim-texto {
     font-size: 16px;
   }
+  .menu__skills-principal {
+    padding-top: 20px;
+  }
+  .menu__skills-principal .menu__skills-bloco {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
   .menu__formacao {
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +70,7 @@
     padding-bottom: 20px;
   }
   .menu__profissional .profissional__bloco-img img {
-    width: 140px;
+    width: 640px;
   }
   .menu__profissional .profissional__conteudo {
     display: flex;
