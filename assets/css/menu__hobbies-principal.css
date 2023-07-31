@@ -27,9 +27,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  height: 150px;
+  height: 130px;
   justify-content: end;
-  width: 152px;
+  width: 132px;
   border-radius: 15px;
 }
 .menu__hobbies-principal .menu__hobbies-bloco .menu__hobbies-conteudo .hobbies__img {

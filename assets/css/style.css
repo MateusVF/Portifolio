@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   font-family: 'Raleway';
   background: #F5F5F5;
+  text-align: justify;
 }
 ul,
 li {
@@ -471,6 +472,15 @@ a {
   .sobre__mim-secundario .sobre__mim-bloco .sobre__mim-texto {
     font-size: 16px;
   }
+  .menu__skills-principal {
+    padding-top: 20px;
+  }
+  .menu__skills-principal .menu__skills-bloco {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
   .menu__formacao {
     display: flex;
     flex-wrap: wrap;
@@ -524,9 +534,19 @@ a {
     height: auto;
   }
   .menu__skills-principal {
+    height: auto;
     padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   .menu__skills-principal .menu__skills-bloco {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .menu__hobbies-principal {
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -537,6 +557,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    padding-bottom: 20px;
   }
   .formacao__titulo {
     text-align: center;
@@ -558,4 +579,13 @@ a {
     width: 330px;
     height: auto;
   }
+}
+.menu__footer {
+  padding: 2rem;
+  font-family: "Raleway", sans-serif;
+  color: #464646;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgba(235, 233, 233, 0.28627451);
 }

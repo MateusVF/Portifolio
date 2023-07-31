@@ -26,9 +26,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  height: 150px;
+  height: 130px;
   justify-content: end;
-  width: 152px;
+  width: 132px;
   border-radius: 15px;
 }
 .menu__skills-principal .menu__skills-bloco .menu__skills-conteudo .skills__img {
